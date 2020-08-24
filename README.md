@@ -9,3 +9,4 @@
 
 ## [Pointers]
 - updated script.js
+- uploaded logo.jpg
