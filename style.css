@@ -9,6 +9,13 @@
 }
 body {
 }
+div.logo-container {
+	max-width: 300px;
+}
+img.logo {
+	width: 300px;
+	height: auto;
+}
 div.link a {
 	color: var(--clr-light);
 	text-decoration: none;
