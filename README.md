@@ -5,3 +5,7 @@
 - created index.html
 - created style.css
 - created script.js
+
+
+## [Pointers]
+- updated script.js
