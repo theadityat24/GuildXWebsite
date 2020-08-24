@@ -4,4 +4,6 @@
 }
 :root {
 	--clr-accent: #000000;/* Change the site's accent color */
+	--clr-light: #ffffff;
+	--clr-dark: #111111;
 }
