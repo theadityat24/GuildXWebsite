@@ -7,3 +7,8 @@
 	--clr-light: #ffffff;
 	--clr-dark: #111111;
 }
+html {
+	background-image: url(logo.jpg);
+	background-size: cover;
+	background-position: center center;
+}
