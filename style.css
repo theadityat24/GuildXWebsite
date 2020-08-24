@@ -8,8 +8,13 @@
 	--clr-dark: #111111;
 }
 body {
-	background-image: url(logo.jpg);
-	background-size: cover;
-	background-repeat: none;
-	background-position: center center;
+}
+div.link a {
+	color: var(--clr-light);
+	text-decoration: none;
+	font-size: 24px;
+	transition: all 0.3s;
+}
+div.link a:hover {
+	color: var(--clr-accent);
 }
