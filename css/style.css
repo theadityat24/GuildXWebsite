@@ -233,3 +233,10 @@ h3 {
 .nav-open .hamburger::after {
   opacity: 0;
 }
+
+/* PARTICLES IFRAME */
+iframe.fullscreen {
+  border: none;
+  width: 100vw;
+  height: 100vh;
+}
