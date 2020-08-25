@@ -111,18 +111,24 @@ h3 {
   z-index: 1000;
 }
 
-.logo img {
-  position: absolute;
-  height: 50px;
-  width: auto;
-}
-
 .logo {
-  margin: 0.5em;
-  width: fit-content;
+  display: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
+  .logo img {
+    position: absolute;
+    height: 50px;
+    width: auto;
+  }
+
+  .logo {
+    margin: 0.5em;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 500px) {
     .logo img {
     position: absolute;
     height: 100px;
