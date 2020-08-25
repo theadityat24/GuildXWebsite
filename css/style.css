@@ -195,7 +195,7 @@ h3 {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-dark);
+  background: var(--clr-light);
   width: 4em;
   height: 3px;
   border-radius: 1em;
@@ -225,12 +225,10 @@ h3 {
 }
 .nav-open .hamburger {
   transform: rotate(0.625turn);
-  background: var(--clr-light);
 }
 
 .nav-open .hamburger::before {
   transform: rotate(90deg) translateX(-18px);
-  background: var(--clr-light);
 }
 
 .nav-open .hamburger::after {
