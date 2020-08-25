@@ -39,7 +39,7 @@ class Particle {
   }
 }
 
-let num = canvas.width * canvas.height / 9000;
+let num = canvas.width * canvas.height / 12000;
 let pA = [];
 
 function init() {
