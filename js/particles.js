@@ -31,7 +31,7 @@ class Particle {
     this.draw();
   }
   draw() {
-    ctx.fillStyle = "rgba(255, 20, 255, 1)";
+    ctx.fillStyle = "rgba(255, 20, 255, 0.5)";
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
     ctx.fill();
@@ -54,12 +54,37 @@ function init() {
   }
 }
 
+function connect() {
+  let o = 1;
+  for (const a of pA) {
+    for (const b of pA) {
+      const dx = a.x - b.x;
+      const dy = a.y - b.y;
+      const d = Math.sqrt(dx * dx + dy * dy);
+      o = 1 / d;
+      if (d < (canvas.width / 7) * (canvas.height / 7)) {
+        o = 1 - (d / 20000);
+        ctx.strokeStyle = `rgba(255, 20, 255, ${o})`;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.closePath();
+        ctx.stroke();
+      }
+    }
+  }
+}
+      
+
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   
   for (let i = 0; i < pA.length; i++) {
     pA[i].update();
   }
+  
+  connect();
   
   requestAnimationFrame(animate);
 }
