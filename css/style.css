@@ -249,6 +249,8 @@ section.opening {
     margin: 0 auto;
     height: 200px;
     text-align: center;
+    display: grid;
+    place-items: center;
   }
   h3.opening-statement {
     font-family: var(--ff-sans);
