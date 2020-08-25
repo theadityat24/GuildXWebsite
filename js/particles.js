@@ -1,6 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-canvas.width= innerWidth;
+canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 class Particle {
@@ -64,6 +64,7 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
+init();
 requestAnimationFrame(animate);
 
 window.addEventListener('resize', function (e) {
