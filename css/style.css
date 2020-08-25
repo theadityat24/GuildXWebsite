@@ -113,13 +113,26 @@ h3 {
 
 .logo img {
   position: absolute;
-  height: 100px;
+  height: 50px;
   width: auto;
 }
 
 .logo {
   margin: 0.5em;
   width: fit-content;
+}
+
+@media (min-width: 400px) {
+    .logo img {
+    position: absolute;
+    height: 100px;
+    width: auto;
+  }
+
+  .logo {
+    margin: 0.5em;
+    width: fit-content;
+  }
 }
 
 .header {
