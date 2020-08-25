@@ -15,7 +15,7 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #111;
+  --clr-dark: #000;
   --clr-accent: #a0b4fa;
 
   --fs-h1: 3rem;
@@ -237,6 +237,7 @@ h3 {
 
 /* OPENING STATEMENT */
 section.opening {
+  margin-top: 32px;
   width: 60%;
   max-width: 60%;
 }
