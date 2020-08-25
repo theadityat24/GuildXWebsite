@@ -61,8 +61,8 @@ function connect() {
       const dx = a.x - b.x;
       const dy = a.y - b.y;
       const d = Math.sqrt(dx * dx + dy * dy);
-      if (d < (canvas.width / 70) * (canvas.height / 70)) {
-        o = 1 - (d / 20000);
+      if (d < 100) {
+        o = 1 - (d / 100);
         ctx.strokeStyle = `rgba(255, 20, 255, ${o})`;
         ctx.lineWidth = 1;
         ctx.beginPath();
