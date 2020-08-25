@@ -9,6 +9,7 @@
 - ~~uploaded fav.png~~
 - deleted everything (yeah that's a good thing)
 - uploaded everything back with folders and a header
+- particles.js effect
 
 ## [Pointers]
 - ~~updated script.js~~
