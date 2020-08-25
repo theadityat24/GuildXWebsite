@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,6 +9,7 @@
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
+  --ff-sans: "Josefin Sans", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -232,6 +235,17 @@ h3 {
 
 .nav-open .hamburger::after {
   opacity: 0;
+}
+
+/* OPENING STATEMENT */
+section.opening {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 200px;
+}
+h2.opening-statement {
+  font-family: var(--ff-sans);
 }
 
 /* PARTICLES IFRAME */
