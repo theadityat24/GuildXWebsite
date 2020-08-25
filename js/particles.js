@@ -31,7 +31,7 @@ class Particle {
     this.draw();
   }
   draw() {
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "rgba(255, 20, 255, 1)";
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
     ctx.fill();
