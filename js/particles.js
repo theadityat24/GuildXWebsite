@@ -27,7 +27,7 @@ class Particle {
       this.yv = -this.yv;
     }
     this.x += this.xv;
-    this.y +== this.yv;
+    this.y += this.yv;
     this.draw();
   }
   draw() {
