@@ -125,19 +125,22 @@ h3 {
   .logo {
     margin: 0.5em;
     width: fit-content;
+    display: initial;
   }
 }
 
 @media (min-width: 500px) {
-    .logo img {
+   .logo img {
     position: absolute;
     height: 100px;
     width: auto;
+    display: initial;
   }
 
   .logo {
     margin: 0.5em;
     width: fit-content;
+    display: initial;
   }
 }
 
