@@ -237,6 +237,10 @@ h3 {
 
 /* OPENING STATEMENT */
 section.opening {
+  width: 60%;
+  max-width: 60%;
+  margin: 0 auto;
+  height: 300px;
   text-align: center;
   display: grid;
   place-items: center;
