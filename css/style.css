@@ -247,7 +247,7 @@ section.opening {
   width: 65%;
   max-width: 65%;
 }
-h3.opening-statement {
+.opening-statement {
   font-family: var(--ff-sans);
 }
 
@@ -261,7 +261,7 @@ h3.opening-statement {
     display: grid;
     place-items: center;
   }
-  h3.opening-statement {
+  .opening-statement {
     font-family: var(--ff-sans);
   }
 }
