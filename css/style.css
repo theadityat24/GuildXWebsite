@@ -277,6 +277,8 @@ iframe.fullscreen {
 .footer {
 	 background: #121626;
 	 color: var(--clr-light);
+	 display: flex;
+	 flex-direction: row;
 }
  .footer .links ul {
 	 list-style-type: none;
