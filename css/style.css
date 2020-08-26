@@ -244,8 +244,8 @@ section.opening {
   text-align: center;
   display: grid;
   place-items: center;
-  width: 60%;
-  max-width: 60%;
+  width: 65%;
+  max-width: 65%;
 }
 h3.opening-statement {
   font-family: var(--ff-sans);
