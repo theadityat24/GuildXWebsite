@@ -247,6 +247,9 @@ section.opening {
   width: 60%;
   max-width: 60%;
 }
+h3.opening-statement {
+  font-family: var(--ff-sans);
+}
 
 @media (min-width: 1500px) {
   section.opening {
