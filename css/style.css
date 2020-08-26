@@ -237,7 +237,9 @@ h3 {
 
 /* OPENING STATEMENT */
 section.opening {
-  margin-top: 32px;
+  text-align: center;
+  display: grid;
+  place-items: center;
   width: 60%;
   max-width: 60%;
 }
