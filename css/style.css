@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 
 *,
 *::before,
@@ -16,8 +16,7 @@
 
   --clr-light: #fff;
   --clr-dark: #000;
-  --clr-accent: #ff14ff;
-  --clr-main: #4d6aff;  
+  --clr-accent: #4d6aff;
 
   --fs-h1: 3rem;
   --fs-h2: 2.5rem;
@@ -134,7 +133,7 @@ h3 {
 }
 
 @media (min-width: 500px) {
-   .logo img {
+  .logo img {
     position: absolute;
     height: 100px;
     width: auto;
@@ -277,7 +276,7 @@ iframe.fullscreen {
 /* FOOTER */
 .main {
   max-height: 550px;
-  background-color: #141a1d;
+  background-color: #12171a;
   color: var(--clr-light);
   font-size: 38pt;
   text-align: center;
@@ -316,7 +315,7 @@ footer {
 }
 
 .footer-distributed h2 span {
-  color: var(--clr-main);
+  color: var(--clr-accent);
 }
 
 .footer-distributed .footer-links {
@@ -376,7 +375,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: var(--clr-main);
+  color: var(--clr-accent);
   text-decoration: none;
 }
 
