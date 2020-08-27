@@ -17,7 +17,7 @@
   --clr-light: #fff;
   --clr-dark: #000;
   --clr-accent: #ff14ff;
-  --clr-main: #020a32;  
+  --clr-main: ##4d6aff;  
 
   --fs-h1: 3rem;
   --fs-h2: 2.5rem;
@@ -316,7 +316,7 @@ footer {
 }
 
 .footer-distributed h2 span {
-  color: var(--clr-accent);
+  color: var(--clr-main);
 }
 
 .footer-distributed .footer-links {
