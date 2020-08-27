@@ -272,6 +272,7 @@ iframe.fullscreen {
   width: 100vw;
   height: 200vh;
   position: absolute;
+  z-index: -10;
 }
 
 /* FOOTER */
