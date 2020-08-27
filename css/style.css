@@ -270,8 +270,7 @@ section.opening {
 iframe.fullscreen {
   border: none;
   width: 100vw;
-  height: 200vh;
-  position: absolute;
+  height: 100vh;
   z-index: -10;
 }
 
