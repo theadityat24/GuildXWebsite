@@ -308,13 +308,13 @@ footer {
   width: 40%;
 }
 
-.footer-distributed h3 {
+.footer-distributed h2 {
   color: var(--clr-light);
   font-family: var(--ff-sans);
   margin: 0;
 }
 
-.footer-distributed h3 span {
+.footer-distributed h2 span {
   color: var(--clr-accent);
 }
 
