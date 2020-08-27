@@ -315,7 +315,7 @@ footer {
 }
 
 .footer-distributed h3 span {
-  color: #5383d3;
+  color: var(--clr-accent);
 }
 
 .footer-distributed .footer-links {
@@ -375,7 +375,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #var(--clr-accent);
+  color: var(--clr-accent);
   text-decoration: none;
 }
 
