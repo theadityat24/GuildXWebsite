@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +23,7 @@
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
+  font-family: 'Josefin sans', sans-serif;
 }
 h1 {
   color: white;
@@ -30,4 +33,10 @@ h3 {
 }
 a {
   color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+hr.hr {
+  margin: 0 auto;
+  width: 50%;
+  border: 2px solid #5c76fa;
 }
