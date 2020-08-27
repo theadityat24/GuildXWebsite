@@ -17,6 +17,10 @@
 .title-container {
   z-index: 1;
   text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 h1 {
   color: white;
