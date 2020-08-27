@@ -17,6 +17,7 @@
   --clr-light: #fff;
   --clr-dark: #000;
   --clr-accent: #ff14ff;
+  --clr-main: #020a32;  
 
   --fs-h1: 3rem;
   --fs-h2: 2.5rem;
@@ -375,7 +376,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: var(--clr-accent);
+  color: var(--clr-main);
   text-decoration: none;
 }
 
@@ -412,7 +413,7 @@ footer {
   border-radius: 2px;
 
   font-size: 20px;
-  color: #ffffff;
+  color: var(--clr-light);
   text-align: center;
   line-height: 35px;
 
