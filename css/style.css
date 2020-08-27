@@ -235,37 +235,6 @@ h3 {
   opacity: 0;
 }
 
-/* OPENING STATEMENT */
-section.opening {
-  width: 60%;
-  max-width: 60%;
-  margin: 0 auto;
-  height: 300px;
-  text-align: center;
-  display: grid;
-  place-items: center;
-  width: 65%;
-  max-width: 65%;
-}
-.opening-statement {
-  font-family: var(--ff-sans);
-}
-
-@media (min-width: 1500px) {
-  section.opening {
-    width: 80%;
-    max-width: 80%;
-    margin: 0 auto;
-    height: 400px;
-    text-align: center;
-    display: grid;
-    place-items: center;
-  }
-  .opening-statement {
-    font-family: var(--ff-sans);
-  }
-}
-
 /* PARTICLES IFRAME */
 iframe.fullscreen {
   border: none;
