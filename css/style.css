@@ -270,7 +270,8 @@ section.opening {
 iframe.fullscreen {
   border: none;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
+  position: absolute;
 }
 
 /* FOOTER */
