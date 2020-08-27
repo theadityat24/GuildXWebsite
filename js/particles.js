@@ -31,7 +31,7 @@ class Particle {
     this.draw();
   }
   draw() {
-    ctx.fillStyle = "rgba(255, 20, 255, 0.5)";
+    ctx.fillStyle = "#5c76fa";
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
     ctx.fill();
@@ -63,7 +63,7 @@ function connect() {
       const d = Math.sqrt(dx * dx + dy * dy);
       if (d < 100) {
         o = 1 - (d / 100);
-        ctx.strokeStyle = `rgba(255, 20, 255, ${o})`;
+        ctx.strokeStyle = `rgba(92, 118, 250, ${o})`;
         ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(a.x, a.y);
