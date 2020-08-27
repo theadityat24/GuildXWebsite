@@ -237,7 +237,7 @@ h3 {
 
 /* PARTICLES IFRAME */
 section.iframe-container {
-  height: calc(100% - 9px);
+  height: calc(100vh - 9px);
 }
 iframe.fullscreen {
   border: none;
