@@ -150,6 +150,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  height: 0;
 }
 
 .nav {
