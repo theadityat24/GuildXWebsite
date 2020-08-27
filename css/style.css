@@ -276,8 +276,8 @@ iframe.fullscreen {
 /* FOOTER */
 .main {
   max-height: 550px;
-  background-color: #292c2f;
-  color: white;
+  background-color: #141a1d;
+  color: var(--clr-light);
   font-size: 38pt;
   text-align: center;
   line-height: 550px;
@@ -286,7 +286,7 @@ footer {
   bottom: 0;
 }
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: #161a1d;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -309,8 +309,8 @@ footer {
 }
 
 .footer-distributed h3 {
-  color: #ffffff;
-  font: normal 36px "Cookie", cursive;
+  color: var(--clr-light);
+  font-family: var(--ff-sans);
   margin: 0;
 }
 
@@ -319,7 +319,7 @@ footer {
 }
 
 .footer-distributed .footer-links {
-  color: #ffffff;
+  color: var(--clr-light);
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -343,8 +343,8 @@ footer {
 }
 
 .footer-distributed .footer-center i {
-  background-color: #33383b;
-  color: #ffffff;
+  background-color: #111419;
+  color: var(--clr-light);
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -362,7 +362,7 @@ footer {
 
 .footer-distributed .footer-center p {
   display: inline-block;
-  color: #ffffff;
+  color: var(--clr-light);
   vertical-align: middle;
   margin: 0;
 }
@@ -375,7 +375,7 @@ footer {
 }
 
 .footer-distributed .footer-center p a {
-  color: #5383d3;
+  color: #var(--clr-accent);
   text-decoration: none;
 }
 
@@ -393,7 +393,7 @@ footer {
 
 .footer-distributed .footer-company-about span {
   display: block;
-  color: #ffffff;
+  color: var(--clr-light);
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
