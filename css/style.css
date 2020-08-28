@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
 *,
 *::before,
@@ -12,6 +13,7 @@
   --ff-secondary: "Source Code Pro", monospace;
   --ff-sans: "Josefin Sans", sans-serif;
   --ff-dosis: "Dosis", sans-serif;
+  --ff-rale: "Raleway", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -260,6 +262,28 @@ iframe.fullscreen {
   text-align: center;
   font-family: var(--ff-dosis);
   letter-spacing: 4px;
+}
+
+/* Quote */
+blockquote {
+  background: transparent;
+  color: white;
+  border-left: 4px solid var(--clr-accent);
+  margin: 0 auto;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  max-width: 80%;
+  width: 80%;
+  font-family: var(--ff-rale);;
+  font-size: 24px;
+}
+blockquote:before {
+  color: var(--clr-accent);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 /* Stuff */
