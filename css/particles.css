@@ -111,7 +111,7 @@ a.btn {
 a.btn::before {
   content: "";
   background-image: url(../images/discord.png);
-  background-size: 200px 200px;
+  background-size: 100px 100px;
   background-position: center center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
@@ -131,6 +131,6 @@ a.btn:hover {
 }
 
 a.btn:hover::before {
-  transform: translateY(60px);
+  transform: translateY(50px);
   opacity: 1;
 }
