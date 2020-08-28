@@ -282,8 +282,7 @@ iframe.fullscreen {
 .project-logo-container {
   width: 400px;
   height: 400px;
-  display: block;
-  background: var(--clr-accent);
+  background-color: var(--clr-accent);
 }
 
 /* FOOTER */
