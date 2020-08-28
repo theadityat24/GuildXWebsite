@@ -266,8 +266,8 @@ iframe.fullscreen {
 
 .organization,
 .notable-project {
-  flex: 1 1 40%;
-  flex: 0 1 40%;
+  flex: 1 1 400px;
+  flex: 0 1 400px;
   margin: 6px;
 }
 
