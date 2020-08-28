@@ -248,6 +248,20 @@ iframe.fullscreen {
   z-index: -10;
 }
 
+/* Text */
+.intro {
+  padding: 32px 8px;
+  margin: 0 auto;
+  max-width: 80%;
+  width: 80%;
+}
+
+.intro-title {
+  text-align: center;
+  font-family: var(--ff-dosis);
+  letter-spacing: 4px;
+}
+
 /* Stuff */
 .org-title,
 .project-title {
