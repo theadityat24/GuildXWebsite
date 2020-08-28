@@ -278,6 +278,14 @@ iframe.fullscreen {
   letter-spacing: 2px;
 }
 
+.org-logo-container,
+.project-logo-container {
+  width: 400px;
+  height: 400px;
+  display: block;
+  background: var(--clr-accent);
+}
+
 /* FOOTER */
 .main {
   max-height: 550px;
