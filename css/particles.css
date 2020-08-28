@@ -123,16 +123,14 @@ a.btn::before {
   box-sizing: border-box;
   opacity: 0;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  border: 2px solid white;
 }
 
 a.btn:hover {
   color: #5c76fa;
   background: transparent;
-/*   border: 1px solid #5c76fa; */
 }
 
 a.btn:hover::before {
-  transform: translateY(70px);
+  transform: translateY(60px);
   opacity: 1;
 }
