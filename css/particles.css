@@ -113,9 +113,8 @@ a.btn::before {
   background-image: url(../images/discord.png);
   background-size: 100px 100px;
   background-position: center center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 3rem;
   color: #5c76fa;
   position: absolute;
   display: block;
@@ -134,4 +133,15 @@ a.btn:hover {
 a.btn:hover::before {
   transform: translateY(50px);
   opacity: 1;
+}
+
+@media (max-width: 800px) {
+  a.btn {
+    font-size: 1.35rem;
+    width: 160px;
+    padding: 12px 0;
+  }
+  a.btn::before {
+    background-size: 70px 70px;
+  }
 }
