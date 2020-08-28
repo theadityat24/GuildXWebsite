@@ -287,6 +287,8 @@ iframe.fullscreen {
   width: 400px;
   height: 400px;
   background-color: var(--clr-accent);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 section.orgs,
