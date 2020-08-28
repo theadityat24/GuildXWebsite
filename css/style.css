@@ -251,6 +251,10 @@ iframe.fullscreen {
 }
 
 /* Text */
+section.guild-text {
+  background: linear-gradient(to bottom, #01030f, var(--clr-dark));
+}
+
 .intro {
   padding: 32px 8px;
   margin: 0 auto;
