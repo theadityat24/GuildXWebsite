@@ -143,5 +143,26 @@ a.btn:hover::before {
   }
   a.btn::before {
     background-size: 70px 70px;
+    background-position: center center;
+  }
+  a.btn:hover::before {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  a.btn {
+    font-size: 1.2rem;
+    width: 140px;
+    padding: 9px 0;
+  }
+  a.btn::before {
+    background-size: 50px 50px;
+    background-position: center center;
+  }
+  a.btn:hover::before {
+    transform: translateY(20px);
+    opacity: 1;
   }
 }
