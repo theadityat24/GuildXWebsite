@@ -104,6 +104,7 @@ a.btn {
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 a.btn::before {
@@ -125,7 +126,6 @@ a.btn:hover {
   color: #5c76fa;
   background: transparent;
   border: 1px solid #5c76fa;
-  box-sizing: border-box;
 }
 
 a.btn:hover::before {
