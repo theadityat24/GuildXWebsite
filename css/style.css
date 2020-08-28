@@ -257,10 +257,25 @@ iframe.fullscreen {
   margin: 16px 0;
 }
 
+.org-grid,
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.organization,
+.notable-project {
+  flex: 1 1 150px;
+  flex: 0 1 150px;
+  margin: 5px;
+}
+
 .org-name,
 .project-name {
   text-align: center;
   font-family: var(--ff-dosis);
+  letter-spacing: 2px;
 }
 
 /* FOOTER */
