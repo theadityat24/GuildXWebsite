@@ -250,7 +250,7 @@ iframe.fullscreen {
 .org-title,
 .project-title {
   text-align: center;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-sans);
 }
 
 /* FOOTER */
