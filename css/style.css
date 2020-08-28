@@ -268,7 +268,7 @@ iframe.fullscreen {
 .notable-project {
   flex: 1 1 400px;
   flex: 0 1 400px;
-  margin: 6px;
+  margin: 16px;
 }
 
 .org-name,
@@ -276,8 +276,8 @@ iframe.fullscreen {
   text-align: center;
   font-family: var(--ff-dosis);
   letter-spacing: 2px;
-  padding: 8px 0;
-  background-color: #222;
+  padding: 12px 0;
+  background-color: #111;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -287,6 +287,12 @@ iframe.fullscreen {
   width: 400px;
   height: 400px;
   background-color: var(--clr-accent);
+}
+
+section.orgs,
+section.projects {
+  padding-bottom: 32px;
+  margin-bottom: 4px;
 }
 
 /* FOOTER */
