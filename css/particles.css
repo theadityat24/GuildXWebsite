@@ -144,9 +144,10 @@ a.btn:hover::before {
   a.btn::before {
     background-size: 70px 70px;
     width: 160px;
+    height: 160px;
   }
   a.btn:hover::before {
-    transform: translateY(30px);
+    transform: translateY(24px);
     opacity: 1;
   }
 }
@@ -160,9 +161,10 @@ a.btn:hover::before {
   a.btn::before {
     background-size: 50px 50px;
     width: 140px;
+    height: 140px
   }
   a.btn:hover::before {
-    transform: translateY(20px);
+    transform: translateY(16px);
     opacity: 1;
   }
 }
