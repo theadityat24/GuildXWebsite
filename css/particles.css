@@ -107,7 +107,7 @@ a.btn {
   box-sizing: border-box;
 }
 
-a.btn::after {
+a.btn::before {
   content: "Discord";
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
@@ -128,7 +128,7 @@ a.btn:hover {
   border: 1px solid #5c76fa;
 }
 
-a.btn:hover::after {
+a.btn:hover::before {
   transform: translateY(70px);
   opacity: 1;
 }
