@@ -123,6 +123,7 @@ a.btn::before {
   box-sizing: border-box;
   opacity: 0;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  pointer-events: none;
 }
 
 a.btn:hover {
