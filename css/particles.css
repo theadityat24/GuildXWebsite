@@ -111,15 +111,15 @@ a.btn {
 a.btn::before {
   content: "";
   background-image: url(../images/discord.png);
-  background-size: 100px 100px;
+  background-size: 200px 200px;
   background-position: center center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
   color: #5c76fa;
-  text-align: center;
   position: absolute;
   display: block;
   width: 200px;
+  height: 200px;
   box-sizing: border-box;
   opacity: 0;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
