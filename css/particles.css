@@ -125,7 +125,7 @@ a.btn::before {
 a.btn:hover {
   color: #5c76fa;
   background: transparent;
-  border: 1px solid #5c76fa;
+/*   border: 1px solid #5c76fa; */
 }
 
 a.btn:hover::before {
