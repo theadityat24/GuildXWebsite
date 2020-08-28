@@ -113,6 +113,7 @@ a.btn::before {
   background-image: url(../images/discord.png);
   background-size: 100px 100px;
   background-position: center center;
+  background-repeat: none;
   font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
   color: #5c76fa;
