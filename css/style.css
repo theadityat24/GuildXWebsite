@@ -281,14 +281,19 @@ blockquote {
   font-family: var(--ff-rale);;
   font-size: 24px;
 }
+
 blockquote:before {
   color: var(--clr-accent);
-  font-family: serif;
+  font-family: sans-serif;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
 
 /* Stuff */
