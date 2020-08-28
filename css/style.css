@@ -276,10 +276,10 @@ iframe.fullscreen {
   text-align: center;
   font-family: var(--ff-dosis);
   letter-spacing: 2px;
-  padding: 4px 0;
-  background-color: #111;
-  border-radius-left-bottom: 8px;
-  border-radius-right-bottom: 8px;
+  padding: 8px 0;
+  background-color: #222;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .org-logo-container,
