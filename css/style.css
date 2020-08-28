@@ -246,6 +246,13 @@ iframe.fullscreen {
   z-index: -10;
 }
 
+/* Stuff */
+.org-title,
+.project-title {
+  text-align: center;
+  font-family: var(--ff-primary);
+}
+
 /* FOOTER */
 .main {
   max-height: 550px;
