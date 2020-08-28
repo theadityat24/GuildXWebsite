@@ -283,6 +283,7 @@ blockquote {
 }
 blockquote:before {
   color: var(--clr-accent);
+  font-family: serif;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
