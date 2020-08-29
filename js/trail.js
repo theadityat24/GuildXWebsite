@@ -74,6 +74,11 @@ document.addEventListener('mouseout', function(e) {
   mouse.y = -128;
 });
 
+document.addEventListener('scroll', function(e) {
+  mouse.x = -128;
+  mouse.y = -128;
+});
+
 window.addEventListener('resize', function (e) {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
