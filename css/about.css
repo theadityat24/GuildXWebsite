@@ -1,3 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
+  --ff-sans: "Josefin Sans", sans-serif;
+  --ff-dosis: "Dosis", sans-serif;
+  --ff-rale: "Raleway", sans-serif;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #000;
+  --clr-accent: #5c76fa;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.5rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1rem;
+
+  --bs-light: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs-heavy: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.05),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.03);
+}
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.8rem;
+    --fs-body: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --fs-h1: 5.2rem;
+    --fs-h2: 4rem;
+    --fs-h3: 2rem;
+    --fs-body: 1.4rem;
+  }
+}
+@media (min-width: 1500px) {
+  :root {
+    --fs-h1: 5.5rem;
+    --fs-h2: 4.2rem;
+    --fs-h3: 2.15rem;
+    --fs-body: 1.5rem;
+  }
+}
+@media (min-width: 1750px) {
+  :root {
+    --fs-h1: 5.75rem;
+    --fs-h2: 4.35rem;
+    --fs-h3: 2.25rem;
+    --fs-body: 1.75rem;
+  }
+}
+@media (min-width: 2000px) {
+  :root {
+    --fs-h1: 6.1rem;
+    --fs-h2: 4.35rem;
+    --fs-h3: 2.25rem;
+    --fs-body: 1.9rem;
+  }
+}
+
 .about-title {
   text-align: center;
+  font-family: var(--ff-sans);
 }
