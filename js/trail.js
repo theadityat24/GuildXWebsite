@@ -37,6 +37,11 @@ const colors = [
   "#3e53bd",
 ];
 
+const grd = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, canvas.height, canvas.width / 2, canvas.height / 2, canvas.width);
+  
+grd.addColorStop(0, '#000936');  
+grd.addColorStop(1, '#000000');
+
 let pA = [];
 
 function make() {
@@ -49,7 +54,7 @@ function make() {
 }
       
 function animate() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
+  ctx.fillStyle = grd;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   
   make();
