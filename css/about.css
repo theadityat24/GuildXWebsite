@@ -77,3 +77,22 @@
   text-align: center;
   font-family: var(--ff-sans);
 }
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-container {
+  flex: 1 1 400px;
+  flex: 0 1 400px;
+  margin: 8px;
+}
+
+.about-text-container,
+.about-img-container {
+  width: 400px;
+  height: 400px;
+  background-color: var(--clr-accent);
+}
