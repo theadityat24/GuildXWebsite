@@ -282,8 +282,8 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   max-width: 60%;
   width: 60%;
-  font-family: var(--ff-rale);;
-  font-size: 24px;
+  font-family: var(--ff-rale);
+  font-size: var(--fs-h3);
 }
 
 blockquote:before {
