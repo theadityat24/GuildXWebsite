@@ -95,3 +95,7 @@
   height: 400px;
   background-color: var(--clr-accent);
 }
+
+.about-text {
+  margin: 0;
+}
