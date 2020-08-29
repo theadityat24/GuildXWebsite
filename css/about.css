@@ -87,7 +87,7 @@
 .about-container {
   flex: 1 1 400px;
   flex: 0 1 400px;
-  margin: 0 8px;
+  margin: 8px;
 }
 
 .about-text-container {
