@@ -99,3 +99,10 @@
 .about-text {
   margin: 0;
 }
+
+@media (max-width: 850px) {
+  #reverse {
+     display: flex;
+    flex-direction: column-reverse;
+  }
+}
