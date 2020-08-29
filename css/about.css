@@ -79,7 +79,7 @@
 }
 
 .about-grid {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -88,12 +88,9 @@
   flex: 1 1 400px;
   flex: 0 1 400px;
   margin: 8px;
-  height: 400px;
-  max-height: 400px;
 }
 
-.about-text-container,
-.about-img-container {
+.about-text-container {
   width: 400px;
   height: 400px;
   background-color: var(--clr-accent);
