@@ -42,7 +42,7 @@ let pA = [];
 function make() {
   const x = mouse.x;
   const y = mouse.y;
-  const s = Math.random() - 0.5;
+  const s = (Math.random() - 0.5) / 2;
   const r = Math.random() * 2 + 2;
   const c = colors[Math.floor(Math.random() * 4)];
     
@@ -50,7 +50,7 @@ function make() {
 }
       
 function animate() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.01)";
+  ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   
   make();
