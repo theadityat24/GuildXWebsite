@@ -73,6 +73,11 @@
   }
 }
 
+section.about {
+  padding: 32px 0;
+  background: 
+}
+
 .about-title {
   text-align: center;
   font-family: var(--ff-sans);
