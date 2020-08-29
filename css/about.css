@@ -75,7 +75,7 @@
 
 section.about {
   padding: 32px 0;
-  background: 
+  background: linear-gradient(to bottom, #01030f, var(--clr-dark));
 }
 
 .about-title {
