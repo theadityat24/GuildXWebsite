@@ -4,25 +4,25 @@ canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 const mouse = {
-  x: -32,
-  y: -32,
+  x: -128,
+  y: -128,
 };
 
 class Particle {
-  constructor (x, y, s, r, c) {
+  constructor (x, y, r, c) {
     this.x = x;
     this.y = y;
-    this.spread = s;
     this.r = r;    
     this.c = c;
+    this.a = 1;
   }
   update () {
-    this.y += this.r;
-    this.x += this.spread;
+    this.a -= 0.01;
     this.draw();
   }
   draw() {
     ctx.fillStyle = this.c;
+    ctx.globalAlpha = this.a;
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
     ctx.fill();
@@ -42,11 +42,10 @@ let pA = [];
 function make() {
   const x = mouse.x;
   const y = mouse.y;
-  const s = (Math.random() - 0.5) / 2;
   const r = Math.random() * 2 + 2;
   const c = colors[Math.floor(Math.random() * 4)];
     
-  pA.push(new Particle(x, y, s, r, c));
+  pA.push(new Particle(x, y, r, c));
 }
       
 function animate() {
@@ -57,7 +56,7 @@ function animate() {
   
   for (let i = 0; i < pA.length; i++) {
     pA[i].update();
-    if (pA[i].y > canvas.height + pA[i].r) pA.splice(i, 1);
+    if (pA[i].a < 0.05) pA.splice(i, 1);
   }
   
   requestAnimationFrame(animate);
