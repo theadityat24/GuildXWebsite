@@ -69,6 +69,11 @@ document.addEventListener('mousemove', function(e) {
   mouse.y = e.clientY;
 });
 
+document.addEventListener('mouseout', function(e) {
+  mouse.x = -128;
+  mouse.y = -128;
+});
+
 window.addEventListener('resize', function (e) {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
