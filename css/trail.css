@@ -1,1 +1,93 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.canvas-container {
+  z-index: -10;
+}
+#canvas {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#000936, #01030f);
+}
+.title-container {
+  z-index: 1;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin sans', sans-serif;
+  width: 80%;
+}
+h1 {
+  color: white;
+  font-size: 2.7rem;
+}
+h3 {
+  color: #dedede;
+  font-size: 1rem;
+}
+a {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+hr.hr {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid #5c76fa;
+}
+@media (min-width: 600px) {
+    h1 {
+      font-size: 3.5rem;
+  }
+    h3 {
+      font-size: 1.1rem;
+  }
+}
+@media (min-width: 800px) {
+    h1 {
+      font-size: 4.5rem;
+  }
+    h3 {
+      font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 5.2rem;
+  }
+    h3 {
+      font-size: 2rem;
+      }
+}
+@media (min-width: 1500px) {
+    h1 {
+      font-size: 5.5rem;
+  }
+    h3 {
+      font-size: 2.15rem;
+      }
+}
+@media (min-width: 1750px) {
+    h1 {
+      font-size: 5.75rem;
+  }
+    h3 {
+      font-size: 2.25rem;
+      }
+}
+@media (min-width: 2000px) {
+    h1 {
+      font-size: 6.1rem;
+  }
+    h3 {
+      font-size: 2.25rem;
+      }
+}
