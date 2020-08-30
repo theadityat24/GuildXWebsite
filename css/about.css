@@ -132,11 +132,21 @@ section.about {
   }
   
   .about-text {
-    font-size: 1.75rem'
+    font-size: 1.75rem;
   }
 
   .about-img-container {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-title {
+    font-size: 3rem;
+  }
+  
+  .about-text {
+    font-size: 1.35rem;
   }
 }
