@@ -110,4 +110,7 @@ section.about {
     flex-direction: column;
     justify-content: center;
   }
+  .about-container {
+    max-width: 70%;
+  }
 }
