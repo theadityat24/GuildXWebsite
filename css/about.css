@@ -103,3 +103,11 @@ section.about {
   margin: 0;
   font-family: var(--ff-sans);
 }
+
+@media (max-width: 805px) {
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
