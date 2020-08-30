@@ -91,17 +91,15 @@ section.about {
 }
 
 .about-container {
-  flex: 1 1 400px;
-  flex: 0 1 400px;
+  flex: 1 1 40%;
+  flex: 0 1 40%;
   margin: 8px;
 }
 
 .about-text-container {
-  width: 400px;
-  height: 400px;
-  background-color: var(--clr-accent);
 }
 
 .about-text {
   margin: 0;
+  font-family: var(--ff-sans);
 }
