@@ -99,6 +99,13 @@ section.about {
 .about-text-container {
 }
 
+.about-img-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background: var(--clr-accent);
+}
+
 .about-text {
   margin: 0;
   font-family: var(--ff-sans);
