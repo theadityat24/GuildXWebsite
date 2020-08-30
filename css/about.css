@@ -96,9 +96,11 @@ section.about {
   margin: 8px 32px;
 }
 
-#wider {
-  flex: 1 1 60%;
-  flex: 0 1 60%;
+@media (max-width: 1000px) {
+  #wider {
+    flex: 1 1 60%;
+    flex: 0 1 60%;
+  }
 }
 
 .about-text-container {
