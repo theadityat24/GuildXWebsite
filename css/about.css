@@ -93,10 +93,11 @@ section.about {
 .about-container {
   flex: 1 1 40%;
   flex: 0 1 40%;
-  margin: 8px 16px;
+  margin: 8px 32px;
 }
 
 .about-text-container {
+  padding: 4px;
 }
 
 .about-img-container {
@@ -120,5 +121,14 @@ section.about {
   .about-container {
     max-width: 60%;
     margin: 0 auto;
+  }
+  
+  .about-text-container {
+    margin-bottom: 32px;
+  }
+
+  .about-img-container {
+    width: 300px;
+    height: 300px;
   }
 }
