@@ -80,7 +80,7 @@ section.about {
 .about-title {
   text-align: center;
   font-family: var(--ff-sans);
-  padding: 16px 4px;
+  padding: 4px 4px 16px 4px;
   margin-bottom: 8px;
 }
 
