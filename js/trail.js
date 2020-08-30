@@ -37,7 +37,7 @@ const colors = [
   "#3e53bd",
 ];
 
-const grd = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, 1, canvas.width / 2, canvas.height / 2, canvas.height);
+const grd = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, 1, canvas.width / 2, canvas.height / 2, canvas.height / 2);
   
 grd.addColorStop(0, '#000936');  
 grd.addColorStop(1, '#000000');
