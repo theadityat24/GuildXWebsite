@@ -112,7 +112,7 @@ section.about {
   font-family: var(--ff-sans);
 }
 
-@media (max-width: 805px) {
+@media (max-width: 800px) {
   .about-grid {
     display: flex;
     flex-direction: column;
@@ -125,6 +125,14 @@ section.about {
   
   .about-text-container {
     margin-bottom: 32px;
+  }
+  
+  .about-title {
+    font-size: 4rem;
+  }
+  
+  .about-text {
+    font-size: 1.75rem'
   }
 
   .about-img-container {
