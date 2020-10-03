@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>GuildX | Home</title>
-    <link href="images/fav.png" rel="shortcut icon" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="js/script.js" type="module"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+                <link rel="shortcut icon" type="image/png" href="https://theadityat24.github.io/GuildXWebsite/images/fav.png">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header style="height: 0;">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/transparentlogo.png" class="logo" width="100" />
-        </a>
+    <script src="script.js"></script>
+
+
+    <div class="container">
+      <div class="navbar">
+       <a href=""> <img src="https://theadityat24.github.io/GuildXWebsite/images/transparentlogo.png" class="loo"></a>
+
+
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+                        <li><a href="#section1">About Us</a></li>
+
+            <li><a href="#section2">Getting Started</a></li>
+
+
+          </ul>
+        </nav>
+
+
+
       </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="about.html" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Contact</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">More</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="section iframe-container">
-      <iframe src="embedparticles.html" class="fullscreen"></iframe>
-    </section>
+        <div id="particles-js">
+</div>
+
+      <div class="row">
+        <div class="col-1">
+          <h2>Guild<span>X</span><h2>
+          <h3>A path to success, for anyone, anything.
+</h3>
+          <p>Get the help you want. For free.
+</p>
+<h4>&nbsp; </h4>
+          <button type="button"><a href="https://discord.gg/H6ytmZy"> Join Now →</a></button>
+        </div>
+                <div class="col-2">
+                  <img src="https://theadityat24.github.io/GuildXWebsite/images/fav.png" class="controller">
+                  <div class="color-box"></div>
+                </div>
+
+      </div>
+
     <section class="section guild-text">
-      <div class="intro">
+      <div class="intro" id="section1">
         <h2 class="intro-title">About Us</h2>
+                <p class="text">
+          GuildX is a small organzation dedicated to helping creators succeed. We believe that success is led by mistakes and encouraging others to be helpful are key factors in a successful person.
+        </p>
+
         <p class="text">
           We enable students to gain hands-on experience, working on teams that are creating revolutionary products for ground-breaking organizations; driving students to become leaders, innovators, and creators. 
         </p>
@@ -52,7 +69,7 @@
           </p>
         </blockquote>
         <br/>
-        <h2 class="intro-title">Getting Started</h2>
+        <h2 class="intro-title" id="section3">Getting Started</h2>
         <p class="text">
           When you join make sure to fill out the application and introduce yourself. We’ll place you on a team based on what skills you have in development, design, and leadership. We’re looking for people who are willing to learn as they create.
         </p>
@@ -124,15 +141,13 @@
           ·
           <a href="#">Contact</a>
           ·
-          <a href="#">More</a>
-          ·
           <a href="#">Tools</a>
         </p>
 
         <p class="footer-company-name">Copyright &copy; 2020 GuildX</p>
       </div>
 
-      <div class="footer-center">
+      <div class="footer-center" id="section2">
         <div>
           <p><span>123 Lorum Ipsum</span> Lorum, Ipsum</p>
         </div>
@@ -158,6 +173,7 @@
           GuildX is a small organzation dedicated to helping creators succeed. We believe that success is led by mistakes and encouraging others to be helpful are key factors in a successful person.
         </p>
 
+
         <div class="footer-icons">
           <a href="https://www.facebook.com/guildx.code.9" target="_blank"><i class="fab fa-facebook-square"></i></a>
           <a href="https://twitter.com/GuildX3" target="_blank"><i class="fab fa-twitter-square"></i></a>
@@ -167,6 +183,153 @@
       </div>
     </footer>
 
-    <!--  A student led organization dedicated to helping student developers.   -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    
+
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+
+
+
+
+
+  <script>
+
+particlesJS("particles-js", {
+  particles: {
+    number: {
+      value: 60,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    },
+    color: {
+      value: ["#5c76fa", "#5c76fa", "#5c76fa"]
+    },
+    shape: {
+      type: ["circle"],
+      stroke: {
+        width: 0,
+        color: "#fff"
+      },
+      polygon: {
+        nb_sides: 5
+      },
+      image: {
+        src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
+        width: 100,
+        height: 100
+      }
+    },
+    opacity: {
+      value: 1,
+      random: false,
+      anim: {
+        enable: false,
+        speed: 1,
+        opacity_min: 0.1,
+        sync: false
+      }
+    },
+    size: {
+      value: 6,
+      random: true,
+      anim: {
+        enable: false,
+        speed: 10,
+        size_min: 10,
+        sync: false
+      }
+    },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#808080",
+      opacity: 1,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 5,
+      direction: "none",
+      random: false,
+      straight: false,
+      out_mode: "out",
+      bounce: false,
+      attract: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 1200
+      }
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "grab"
+      },
+      onclick: {
+        enable: true,
+        mode: "push"
+      },
+      resize: true
+    },
+    modes: {
+      grab: {
+        distance: 140,
+        line_linked: {
+          opacity: 1
+        }
+      },
+      bubble: {
+        distance: 400,
+        size: 2,
+        duration: 2,
+        opacity: 8,
+        speed: 3
+      },
+      repulse: {
+        distance: 200,
+        duration: 0.4
+      },
+      push: {
+        particles_nb: 4
+      },
+      remove: {
+        particles_nb: 2
+      }
+    }
+  },
+  retina_detect: true
+});
+
+  </script>
+  <script>
+
+  </script>
+
   </body>
 </html>
