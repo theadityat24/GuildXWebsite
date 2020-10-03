@@ -3,6 +3,205 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
+im
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(26, 26, 26);
+    font-family: sans-serif;
+
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.loo{
+  width: 260px;
+
+  
+}
+
+.menu-icon{
+  width: 35px;
+
+}
+
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+
+  margin-right: 40px;
+}
+span{
+  color: #5c76fa;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+nav ul li a:hover{
+  color: #5c76fa;
+  transition-duration: 0.5s;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: 800;
+
+  align-items: center;
+  margin: 100px 0;
+}
+
+.col-1{
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.col-1 h2{
+  font-size: 54px;
+  color: #fff;
+}
+.col-1 h3{
+
+  font-size: 30px;
+  color: #f0f0f0;
+  font-weight: 100;
+  margin: 20px 0 10px;
+
+}
+
+
+.col-1 p{
+
+  font-size: 19px;
+  color: #7088ff;
+  font-weight: bolder;
+  
+}
+
+
+.col-1 h4{
+  color: #fff;
+  margin: 30px 0;
+
+  font-size: 3px;
+  
+}
+
+button{
+  width: 160px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #5c76fa, #4564ff);
+  border-radius: 6px;
+}
+button:hover{
+  background-color: #3053ff;
+  transition-duration: 0.4s;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.col-1::after{
+  content: '';
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(#5c76fa, #4c6aff);
+  position: absolute;
+  left: -40px;
+  top: -10px;
+}
+
+
+.col-2{
+  position: relative;
+  background-color: rgba(46, 27, 27, 0);
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+
+}
+
+.col-2 .controller{
+  width: 50%;
+
+}
+
+
+
+.color-box{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(#5c76fa, #4665ff);
+  border-radius: 20px;
+  height: 100%;
+  width: 80%;
+  z-index: -1;
+  transform: translateX(150px);
+}
+
+
+
+
+
+
+.social-links img{
+  height: 23px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+
+
+}
+
+.social-links{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 *,
 *::before,
 *::after {
@@ -72,6 +271,7 @@
     --fs-body: 1.9rem;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -79,10 +279,10 @@ html {
 }
 
 body {
+  font-family: sans-serif;
   background: var(--clr-dark);
   color: var(--clr-light);
   margin: 0;
-  font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
 }
@@ -118,14 +318,17 @@ h3 {
   z-index: 1000;
 }
 
-.logo {
-  display: none;
-}
+  .logo img {
+    position: absolute;
+    height: 3px;
+    width: auto;
+  }
+
 
 @media (min-width: 300px) {
   .logo img {
     position: absolute;
-    height: 50px;
+    height: 3px;
     width: auto;
   }
 
@@ -149,6 +352,11 @@ h3 {
     display: initial;
   }
 }
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 
 .header {
   display: flex;
@@ -158,7 +366,6 @@ h3 {
 
 .nav {
   position: fixed;
-  background: rgba(0, 0, 0, 0.9);
   color: var(--clr-accent);
   top: 0;
   bottom: 0;
@@ -199,7 +406,6 @@ h3 {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-light);
   width: 4em;
   height: 3px;
   border-radius: 1em;
@@ -252,7 +458,6 @@ iframe.fullscreen {
 
 /* Text */
 section.guild-text {
-  background: linear-gradient(to bottom, #01030f, var(--clr-dark));
 }
 
 .intro {
@@ -264,12 +469,13 @@ section.guild-text {
 
 .intro-title {
   text-align: center;
-  font-family: var(--ff-dosis);
+  padding-bottom: 0.4em;
+  font-family: 'Dosis', sans-serif;
   letter-spacing: 4px;
 }
 
 p.text {
-  font-family: var(--ff-primary);
+  font-family: sans-serif;
 }
 
 /* Quote */
@@ -282,7 +488,6 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   max-width: 60%;
   width: 60%;
-  font-family: var(--ff-rale);
   font-size: var(--fs-h3);
 }
 
@@ -298,13 +503,16 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+  
+  
+font-family: 'Raleway', sans-serif;
+
 }
 
 /* Stuff */
 .org-title,
 .project-title {
   text-align: center;
-  font-family: var(--ff-sans);
   color: var(--clr-accent);
   margin: 16px 0;
 }
@@ -326,10 +534,8 @@ blockquote p {
 .org-name,
 .project-name {
   text-align: center;
-  font-family: var(--ff-dosis);
   letter-spacing: 2px;
   padding: 12px 0;
-  background-color: #111;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -338,7 +544,6 @@ blockquote p {
 .project-logo-container {
   width: 400px;
   height: 400px;
-  background-color: var(--clr-accent);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -352,7 +557,6 @@ section.projects {
 /* FOOTER */
 .main {
   max-height: 550px;
-  background-color: #12171a;
   color: var(--clr-light);
   font-size: 38pt;
   text-align: center;
@@ -362,7 +566,6 @@ footer {
   bottom: 0;
 }
 .footer-distributed {
-  background-color: #121313;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -382,10 +585,13 @@ footer {
 .footer-distributed .footer-left {
   width: 40%;
 }
+.footer-left h2{
+  font-family: 'Raleway', sans-serif;
+
+}
 
 .footer-distributed h2 {
   color: var(--clr-light);
-  font-family: var(--ff-sans);
   margin: 0;
 }
 
@@ -480,6 +686,7 @@ footer {
 
 .footer-distributed .footer-icons a {
   display: inline-block;
+  color: #ffffff;
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -487,7 +694,6 @@ footer {
   border-radius: 2px;
 
   font-size: 20px;
-  color: var(--clr-light);
   text-align: center;
   line-height: 35px;
 
@@ -525,3 +731,31 @@ hr.hr {
   margin: 0 auto;
   width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
